@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hospital Registration Form</title>
+</head>
+<body style="font-family: Italic, Arial; background-color : whitesmoke">
+<center><b>
+ <h1 style="text-align: center; color:navy;">HOSPITAL REGISTRATION FORM</h1>
+</h1></center></b>
+
+  <div style="text-align:right;">
+
+  </div>
+  <!-- Search... -->
+    <input type="search" id="search" name="search" placeholder="Search"><br><br></left>
+    <form id="bottom" style="max-width: 700px"></form>
+
+  <!-- Name... -->
+    <label for="name"><strong>Name :</strong></label><br>
+    <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
+
+  <!-- Password... -->
+    <label for="password"><strong>Password :</strong></label><br>
+    <input type="password" id="password" name="password" placeholder="Enter Password" required><br><br>
+
+  <!-- E-Mail... -->
+    <label for="email"><strong>Email :</strong></label><br>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+
+  <!-- Gender... -->
+    <label><strong>Gender :</strong></label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+  <!-- Age... -->
+    <label for="age"><strong>Age :</strong></label><br>
+    <input type="number" id="age" name="age" placeholder="Enter Your Age" required><br><br>
+
+  <!-- Phone Number... -->
+    <label for="phone"><strong>Phone Number :</strong></label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit Mobile No" required><br><br>
+
+  <!-- Date Of Birth... -->
+    <label for="DOB"><strong>Date of Birth :</strong></label><br>
+    <input type="Date" id="DOB" name="DOB" required><br><br>
+
+  <!-- Check Box... -->
+    <label><strong>Required Services :</strong></label><br>
+    <input type="checkbox" id="checkup" name="service" value="Checkup">
+    <label for="checkup">Checkup</label>
+    <input type="checkbox" id="scan" name="service" value="Scan">
+    <label for="scan">Scan</label><br><br>
+
+  <!-- File... -->
+    <label for="report"><strong>Upload Medical Report :</strong></label><br>
+    <input type="file" id="report" name="report"><br><br>
+
+  <!-- Image... -->
+    <label><strong>Submit via Image :</strong></label><br>
+    <input type="image" src="Image Picture Project/Hospital.jpg" alt="Submit" width="300" height="300"><br><br>
+
+  <!-- Hidden... -->
+    <input type="hidden" name="formType" value="hospital"><br>
+
+  <!-- Range... -->
+    <label for="pain"><strong>Pain Level:</strong></label><br>
+    <input type="range" id="pain" name="pain" min="0" max="10"><br><br>
+
+  <!-- Color... -->
+    <label for="color"><strong>Wristband Color:</strong></label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+  <!-- Department... -->
+    <label for="department"><strong>Choose Department:</strong></label><br>
+    <select id="department" name="department" required>
+      <option value="">-- Select --</option>
+      <option value="General">General Medicine</option>
+      <option value="Cardiology">Cardiology</option>
+      <option value="Pediatrics">Pediatrics</option>
+      <option value="Orthopedics">Orthopedics</option>
+    </select><br><br>
+
+  <!-- Doctor Name... -->
+    <label for="search"><strong>Doctor Name :</strong></label><br>
+    <input type="search" id="search" name="search" placeholder="Type Doctor Name"><br><br>
+
+  <!-- URL... -->
+    <label for="url"><strong>Insurance Website:</strong></label><br>
+    <input type="url" id="url" name="url" placeholder=""><br><br>
+
+  <!-- Week... -->
+    <label for="week"><strong>Preferred Week:</strong></label><br>
+    <input type="week" id="week" name="week"><br><br>
+
+  <!-- Month... -->
+    <label for="month"><strong>Preferred Month:</strong></label><br>
+    <input type="month" id="month" name="month"><br><br>
+
+  <!-- Time... -->
+    <label for="time"><strong>Appointment Time:</strong></label><br>
+    <input type="time" id="time" name="time"><br><br>
+
+  <!-- Submit and Reset... -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"><br><br>
+
+  <!-- Need Help... -->
+    <label><strong>Need Help?</strong></label><br>
+    <button type="button" onclick="alert('Please contact hospital support')">Click Here</button><br><br>
+
+    <div style="text-align: right;">
+  <!-- Drop Dowm... -->    
+      <a href="#top"> Back to Top</a>
+    </div>
+
+  </form>
+
+</body>
+</html>
